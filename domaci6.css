@@ -1,0 +1,32 @@
+div{
+    margin: 0px;
+    background-color: red;
+    color: white;
+}
+button{
+color: black;
+}
+
+.ul{
+    float: right;
+   
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+.crni{
+    background-color: black;
+    color: blanchedalmond;
+}
+h1{
+    font-size: 40px;
+    color: blanchedalmond;
+}
+.okvir{
+    border-bottom: 1px solid black;
+}

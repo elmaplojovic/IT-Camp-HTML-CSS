@@ -1,0 +1,46 @@
+.zeleni{
+    background-color: green;
+
+    
+}
+ul{
+    list-style: none;
+    color: white;
+    background-color: black;
+    padding-left: 0px;
+}
+
+li{
+    display: inline-block;
+    padding: 30px;
+}
+.desno{
+    float: right;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.zel{
+    background-color: lawngreen;
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+    
+}
+.ljub{
+    background-color: violet;
+    z-index: 2;
+}
+div{
+    display: inline-block;
+    width:400px;
+    height: 400px;
+    position: relative;
+}
+.gold{
+    background-color: gold;
+    z-index: 3;
+    left:-100px;
+}
