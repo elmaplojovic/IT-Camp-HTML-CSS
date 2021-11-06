@@ -1,0 +1,46 @@
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.step{
+    position:relative;
+    display: inline-block;
+    width: 500px;
+    height: 600px;
+}
+.slike{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 600px;
+    z-index: 2;
+    left: 30px;
+    bottom: 45px;
+}
+.linija{
+    position: relative;
+    display: inline-block;
+    background-color: gray;
+    width: 5px;
+    height:475px;
+    z-index: 1;
+    left: 83px;
+    
+}
+i{
+    display: inline-block;
+    background-color:rgb(114, 47, 114);
+    color: whitesmoke;
+    font-size: 30px;
+    margin: 30px;
+    margin-bottom: 40px;
+    border-radius: 100%;
+
+}
+div{
+    display: inline-block;
+}

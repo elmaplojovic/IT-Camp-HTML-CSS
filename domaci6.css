@@ -1,32 +1,138 @@
 div{
+    position: relative;
     margin: 0px;
-    background-color: red;
-    color: white;
+    padding: 0px;
+}
+
+
+.prvi{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(226, 32, 32);
+    color: whitesmoke;
+    position: relative;
+}
+body{
+    margin:0px;
 }
 button{
 color: black;
+text-align: center;
+padding: 20px;
+margin-left: 770px;
+margin-bottom: 30px;
+border-radius: 20px;
+font-family: Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-.ul{
-    float: right;
-   
-}
+ul{
+    background-color: rgb(226, 32, 32);
+    color: whitesmoke;
+    padding-left: 0px;
+    margin: 0px;
+border: shadow 3px;}
+
 a{
     text-decoration: none;
 }
+
 li{
     list-style: none;
     display: inline-block;
+    padding: 25px;
 
+}
+
+.home{
+    background-color: white;
+    color: black;
 }
 .crni{
     background-color: black;
-    color: blanchedalmond;
+    color: whitesmoke;
 }
 h1{
-    font-size: 40px;
-    color: blanchedalmond;
+    font-size: 60px;
+    color: whitesmoke;
+    margin:0px;
+    text-align: center;
+    padding:100px  50px 40px;
+    font-family: sans-serif;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .okvir{
     border-bottom: 1px solid black;
+    box-shadow: 5px;
+}
+.drugi{
+   padding: 40px 200px;
+}
+.beli{
+    display: inline-block;
+    width:500px;
+    height:600px;
+    color: gray;
+}
+.ikona1{
+    display: inline-block;
+    color: red;
+    font-size: 200px;
+    
+    text-align: center;
+    padding-bottom: px;
+    float: right;
+    
+
+}
+.sidro{
+    width:200px;
+height: 200px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.nas2{
+    color: black;
+}
+p{
+    font-size: 20px;
+}
+
+.fa-coffee{
+    font-size: 200px;
+    display: inline-block;
+    color: red;
+}
+.treci{
+   
+    height:680px;
+    padding: 40px ;
+    background-color: lightgray;
+}
+.kafa{
+    width: 230px;
+    height: 260px;
+    display: inline-block;
+    margin-left: 160px;
+    margin-right: 50px;
+}
+.cetvrti{
+    background-color: grey;
+}
+h2{
+    
+    margin:0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: whitesmoke;
 }

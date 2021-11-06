@@ -1,0 +1,30 @@
+th{
+    background-color: black;
+    color: blanchedalmond;
+    padding:15px;
+   
+}
+table{
+    border: 1px solid rgb(199, 196, 196);
+    border-collapse: collapse;
+    border-radius: 30%;
+    
+}
+tr{
+    margin:0px;
+    border-collapse: collapse;    
+    padding: 15px;
+
+}
+tr:nth-child(odd){
+    background-color: lightgray;
+}
+td:hover{
+    background-color: cadetblue;
+    font-weight: bold;
+}
+
+
+td{
+    padding:20px;
+}
