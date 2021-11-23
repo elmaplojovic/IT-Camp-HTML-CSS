@@ -1,0 +1,71 @@
+.prvi{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation: cetvrtaanimacija;
+    animation-duration: 6s;
+    margin: 15rem;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mojaanimacija{
+    from{
+background-color: red;
+    }
+    to{
+background-color: rgb(24, 19, 19);
+    }
+}
+
+@keyframes drugaanimacija{
+    from{
+     transform: translate(0px, 0px);
+    }
+    to{
+transform: translate(200px,300px);
+    }
+}
+
+@keyframes trecaanimacija{
+    0%{
+     transform: translate(0px, 0px);
+     background-color: red;
+    }
+50%{
+    transform: translate(-100px, -100px);
+}
+
+    100%{
+transform: translate(200px,300px);
+background-color: rgb(24, 19, 19);
+    }
+}
+
+
+@keyframes cetvrtaanimacija{
+    0%{top: 0;
+        left: 0px;
+    
+
+    }
+    25%{
+        top: 0px;
+        left:200px;
+    }
+50%{
+    left: 200px;
+    top:200px;
+}
+75%{
+    top: 200px;
+    right: 0px;
+}
+
+    100%{
+     left:0px;
+    top: 0px;
+        
+    }
+}

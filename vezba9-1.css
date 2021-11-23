@@ -1,0 +1,119 @@
+.glavni{
+    margin: auto;
+    width: 60%;
+    height: 150vh;
+    
+    padding:35px;
+    
+}
+.prvi{
+    background-color: black;
+    color: whitesmoke;
+    height: 40px;
+}
+h2{
+    text-align: center;
+    padding-top: 7px;
+}
+.kartica{
+    display: inline-block;
+    width: 40%;
+    height: 45px;
+    margin: 20px;
+   
+}
+form{
+    
+
+    margin: auto;
+    width: 100%;
+
+    height:100%
+    
+}
+.desni{
+    margin-left: 100px;
+}
+label{
+    display: block;
+}
+input{
+    width: 97%;
+    
+}
+.robot{
+    margin-top:0%;
+    height:60px;
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid gray;
+   
+}
+.chek{
+    padding-top: 20px;
+    display: inline-block;
+    width: 30px;
+}
+.chek2{
+    display: inline-block;
+    padding-top: 20px;
+   
+}
+.chek3{
+    display: inline-block;
+    width: 40px;
+}
+.zadnji{
+    width: 600px;
+}
+.interf{
+    
+    width: 35%;
+    height: 40%;
+    
+    display: inline-block;
+     
+   
+}
+.interf2{
+    
+    width: 55%;
+    height: 40%;
+    
+    display: inline-block;
+     margin-left: 15px;
+   
+}
+.muski{
+    display: inline-block;
+    width: 45%;
+}
+
+.pol{
+    display: inline-block;
+    width:45%;
+    
+}
+.dugme{
+    width:10%;
+    margin:0px;
+    margin-right: 15px;
+    padding-left:0px
+    
+}
+.dugme2{
+    width: 300px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 40px;
+    border: 1px solid black;
+    font-size: 20px;
+    
+    
+}
+.crno{
+    width: 80%;
+   margin-left: 370px;
+   margin-top: 70px;
+}

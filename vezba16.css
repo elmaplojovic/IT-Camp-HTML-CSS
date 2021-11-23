@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .prva {
+    height: 15vh;
+    background-color: red;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .prva li {
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+  }
+  
+  .open {
+    position: absolute;
+    list-style-type: none;
+    background-color: greenyellow;
+    width: 150%;
+    right: 0px;
+    top: 40px;
+    display: none;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown:hover .open {
+    display: block;
+  }
+  
