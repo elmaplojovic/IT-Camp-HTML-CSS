@@ -1,0 +1,30 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: lightgreen;
+    padding-top:13px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+ul{
+    height: 75%;
+    width: 90%;
+    margin:auto;
+    border: 1px solid red;
+    list-style: none;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
