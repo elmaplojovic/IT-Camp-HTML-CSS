@@ -2,6 +2,7 @@ function sortiraj (niz){
     
     for(i=0;i<niz.length;i++){
         
+
         for (let j=niz.length-1 ;j > 0 ;j--) {
     
             if(niz[j]<niz[j-1]){
